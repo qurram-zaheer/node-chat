@@ -17,7 +17,7 @@ input {
 body {
     line-height: 1.4;
     color: #333333;
-    font-family: Helvetica, Arial, sans-serif;
+    font-family: 'PT Sans', Helvetica, Arial, sans-serif;
 }
 
 h1 {
@@ -116,6 +116,7 @@ button:disabled {
 
 .message {
     margin-bottom: 16px;   
+    font-family: 'Fira Code'
 }
 
 .message__name {
@@ -163,17 +164,18 @@ button:disabled {
 /* Chat Sidebar Styles */
 
 .room-title {
-    font-weight: 400;
+    font-weight: 800;
     font-size: 22px;
     background: #2c2f3a;
     padding: 24px;   
 }
 
 .list-title {
-    font-weight: 500;
+    font-weight: 800;
     font-size: 18px;
     margin-bottom: 4px;
     padding: 12px 24px 0 24px;
+    color: #cecece;
 }
 
 .users {
